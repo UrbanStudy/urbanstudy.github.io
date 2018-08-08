@@ -7,14 +7,14 @@ output: html_document
 library(viridis)
 ```
 
-[Overview of the tidyverse workflow](https://cities.github.io/datascience2018/01-part1-overview.html)
-Data importing
-Tidy data
-Data manipulation with dplyr
-Data visulization with ggplot2
-Data modeling with Split-Apply-Combine
-Producing Reports With R Markdown
-Part II Wrap Up
+1. [Overview of the tidyverse workflow](https://cities.github.io/datascience2018/01-part1-overview.html);
+2. Data importing;
+3. Tidy data
+4. Data manipulation with dplyr
+5. Data visulization with ggplot2
+6. Data modeling with Split-Apply-Combine
+7. Producing Reports With R Markdown
+8. Part II Wrap Up
 
 
 ## Viridis colors
