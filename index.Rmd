@@ -17,7 +17,7 @@ library(viridis)
 8. Part II Wrap Up
 
 
-## Viridis colors
+## [Shinyapps](https://jjallaire.shinyapps.io/shiny-ggplot2-diamonds/)
 
 ```{r}
 image(volcano, col = viridis(200))
