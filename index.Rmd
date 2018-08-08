@@ -8,7 +8,7 @@ library(viridis)
 ```
 
 1. [Overview of the tidyverse workflow](https://cities.github.io/datascience2018/01-part1-overview.html);
-2. Data importing;
+2. [Data importing](https://cities.github.io/datascience2018/07-import.html);
 3. Tidy data
 4. Data manipulation with dplyr
 5. Data visulization with ggplot2
