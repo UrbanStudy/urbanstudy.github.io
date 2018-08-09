@@ -11,9 +11,9 @@ library(viridis)
 2. [Data importing](https://cities.github.io/datascience2018/07-import.html);
 3. Tidy data
 4. Data manipulation with dplyr
-5. Data visulization with ggplot2
-6. Data modeling with Split-Apply-Combine
-7. Producing Reports With R Markdown
+5. [Data visulization with ggplot2](https://cities.github.io/datascience2018/10-visualize.html)
+6. [Data modeling with Split-Apply-Combine](https://cities.github.io/datascience2018/11-split-apply-combine.html)
+7. [Producing Reports With R Markdown](https://cities.github.io/datascience2018/05-rmarkdown.html)
 8. Part II Wrap Up
 
 
