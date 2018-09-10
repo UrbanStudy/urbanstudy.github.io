@@ -5,6 +5,23 @@ Date: "August 10, 2018"
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=F)
+options(scipen=100)
+options(digits=3)
+
+if (!require("pacman")) {install.packages("pacman"); library(pacman)}
+# special installation process for printr as it is not available on CRAN
+pacman::p_load(tidyverse, knitr, readr, pander)
+
+panderOptions("digits", 2)
+panderOptions('round', 2)
+panderOptions('keep.trailing.zeros', TRUE)
+panderOptions('keep.line.breaks', TRUE)
+```
+
+
+
 #1. [Overview of the tidyverse workflow](https://cities.github.io/datascience2018/01-part1-overview.html)
 
 #2. [Data importing](https://cities.github.io/datascience2018/07-import.html)
@@ -15,7 +32,7 @@ output: html_document
 #4. Data manipulation with dplyr
 
 
-```{r echo=TRUE, message=TRUE}
+```{r echo=FALSE, message=FALSE}
 source("~/Data Science_20180806/code/Exercise.R")
 ```
 
@@ -116,8 +133,9 @@ qmap("college station, texas", zoom = 8) +
 ggmap::mapdist(c("houston, texas", "dallas"), "waco, texas")
 ```
 
-
-
+<div style="width:300px">
+[![NITC](http://nitc.trec.pdx.edu/sites/default/files/nitc_4c_horiz_tag.jpg)](http://nitc.trec.pdx.edu/)
+</div>
 
 [Shinyapps](https://jjallaire.shinyapps.io/shiny-ggplot2-diamonds/)
 
