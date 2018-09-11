@@ -4,7 +4,7 @@ Author: "Shen Qu"
 Date: "September 11, 2018"
 output: 
  html_document:
-   
+   css:  styles.css
    toc: true
 ---
 
@@ -77,7 +77,7 @@ wget
 - [GitHub repository: ](https://github.com/cities/datascience2018)
 [A R lesson](https://datacarpentry.org/R-ecology-lesson/index.html)
 ```{r echo=FALSE, message=FALSE}
-source("~/Data Science_20180806/code/Exercise.R")
+# source("~/Data Science_20180806/code/Exercise.R")
 ```
 
 <div style="width:300px">
