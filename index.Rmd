@@ -4,11 +4,12 @@ Author: "Shen Qu"
 Date: "September 11, 2018"
 output: 
  html_document:
-  toc: true
+   
+   toc: true
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=F)
+knitr::opts_chunk$set(echo=T, message=T, warning=F)
 options(scipen=100)
 options(digits=3)
 
@@ -25,11 +26,14 @@ panderOptions('keep.line.breaks', TRUE)
 #1. Urban Studies
 
 #2. R Resource
-[Shinyapps](https://jjallaire.shinyapps.io/shiny-ggplot2-diamonds/)
 
-
-
-
+R Markdown
+[Reference](http://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+[LaTeX](http://en.wikibooks.org/wiki/LaTeX/Mathematics)
+ Shiny
+ [Shiny_Urban_Studies](https://urbanstudies.shinyapps.io/website/)
+ [Shiny_Rstudio](http://shiny.rstudio.com/)
+ [Shinyapps](https://jjallaire.shinyapps.io/shiny-ggplot2-diamonds/)
 
 
 #3. Uber
@@ -45,7 +49,7 @@ We can select the first Monday in 6-month later - Nov 2nd, 2015, Nov 7th, 2016; 
 
 #4. Congestion
 
-```{r load_libraries, echo=FALSE, message=FALSE}
+```{r load_libraries, echo=FALSE, message=FALSE, eval=F}
 library(ggmap)
 library(ggplot2)
 trek_df <- route("houson, texas", "waco, texas", structure = "route")
@@ -60,11 +64,11 @@ ggmap::mapdist(c("houston, texas", "dallas"), "waco, texas")
 ```
 #5. Data
 
- quandl.com
+ (quandl.com)
  
  federal Rever
  
-city-data.com
+[](city-data.com)
 
 wget
 
