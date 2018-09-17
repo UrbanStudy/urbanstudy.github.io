@@ -1,4 +1,4 @@
-baseurl = "https://urbanstudy.github.io/studynotes/"
+baseurl = "https://github.com/UrbanStudy/studynotes/"
 languageCode = "en-us"
 title = "A Statistic Note"
 theme = "hugo-xmin"

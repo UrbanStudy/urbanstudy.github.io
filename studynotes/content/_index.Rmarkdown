@@ -2,7 +2,7 @@
 title: Home
 ---
 
-[<img src="https://avatars1.githubusercontent.com/u/42284875?s=400&u=270c929468e7be302259d5d658f7ee3fe0c45d53&v=4" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/UrbanStudy/)
+[<img src="https://avatars1.githubusercontent.com/u/42284875?s=400&u=270c929468e7be302259d5d658f7ee3fe0c45d53&v=4" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/yihui/hugo-xmin)
 
 # A Statistic Study Note
 
